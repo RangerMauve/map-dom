@@ -1,0 +1,32 @@
+{
+  "name": "map-dom",
+  "version": "1.0.0",
+  "description": "Traverse a DOM node and build up a tree of JS objects for it and its children",
+  "main": "index.js",
+  "scripts": {
+    "test": "browserify test.js | tape-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RangerMauve/map-dom.git"
+  },
+  "keywords": [
+    "map",
+    "dom",
+    "traverse",
+    "tree",
+    "recursive",
+    "reduce"
+  ],
+  "author": "rangermauve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/map-dom/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/map-dom",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "tape": "^4.5.1",
+    "tape-run": "^2.1.3"
+  }
+}
